@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+    background-color: lightslategray;
+
+    margin: auto;
+}
+
+div{
+    margin-top: 20px;
+    min-width: 450px;
+    text-align: center;
+}
